@@ -372,9 +372,8 @@ font-size: 22px;
   }
 
   .text-section {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    
   }
 
   .deals-container {
