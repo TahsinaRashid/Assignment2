@@ -366,7 +366,7 @@ font-size: 22px;
   }
 
   .container {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     gap: 30px;
   }
