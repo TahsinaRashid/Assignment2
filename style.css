@@ -339,7 +339,10 @@ font-size: 22px;
   width: 36px;
   height: 36px;
 }
-@media (max-width: 756px) {
+/* @media screen and (max-width: 768px) {
+  
+} */
+@media (max-width: 768px) {
 .hero {
     flex-direction: column;
     text-align: center;
