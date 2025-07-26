@@ -373,7 +373,8 @@ font-size: 22px;
 
   .text-section {
     text-align: left;
-    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .deals-container {
