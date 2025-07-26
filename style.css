@@ -403,7 +403,7 @@ font-size: 22px;
   }
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -548,8 +548,6 @@ a {
 .text-section li {
   margin-bottom: 12px;
 }
-
-/* Deals Section */
 .section-title {
   text-align: center;
   margin: 60px 0 30px;
@@ -652,7 +650,7 @@ a {
 
 .footer-socials img {
   width: 24px;
-}
+} */
 @media (max-width: 768px) {
   .nav a.hide {
     display: none;
