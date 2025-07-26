@@ -651,46 +651,74 @@ a {
 .footer-socials img {
   width: 24px;
 } */
-@media (max-width: 768px) {
+@media screen and (max-width: 576px) {
+
   .nav a.hide {
     display: none;
   }
-
+  .header{
+    gap: 350px;
+  }
+  .logo{
+    padding-left: 2px;
+  }
   .cart56 {
+    text-decoration: none;
+    text-align: left;
     margin-left: auto;
   }
-
   .hero {
+    margin: none;
     flex-direction: column-reverse;
     text-align: left;
   }
 
-  .hero-text h1 {
-    font-size: 2rem;
+  .hero-text {
+    padding-left: 0px;
+    text-align: left;
   }
+  .products{
+    padding: 50px;
+    padding-right: 50px;
+    text-align: center;
+    outline: hidden;
+    justify-items: center;
+
+  }
+
 
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 
   .container {
     flex-direction: column;
+    text-align: center;
+  }
+  .image-container{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .section-title{
+    padding-left: 100px;
+    text-align: center;
   }
 
   .text-section {
-    text-align: left;
+    padding-left: 50px;
+    text-align: center;
   }
 
-  .deals-container {
+  .deals-container .left-deals .right-deals {
+    display: flex;
     flex-direction: column;
-  }
-
-  .left-deals {
-    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .right-deal {
-    height: 250px;
+    height: auto;
   }
 
   .badge {
@@ -706,9 +734,12 @@ a {
     flex-direction: column;
     gap: 20px;
   }
+  .subscribe-section{
+    outline: hidden;
+  }
 
   .subscribe-section h2 {
-    font-size: 2rem;
+    text-align: center;
   }
 
   .subscribe-box {
