@@ -403,7 +403,203 @@ font-size: 22px;
   }
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 430px) {
+  /* Global adjustments */
+  body {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Header */
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .nav .hide {
+    display: none;
+  }
+
+  .cart56 {
+    margin-left: auto;
+    font-size: 16px;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 14px !important;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+
+  /* Products Section */
+  .products {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .products h2 {
+    font-size: 22px;
+  }
+
+  .products .proin {
+    font-size: 14px;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+
+  .prob {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  /* Flower & Plants Lover Section */
+  .container {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .image-container img.badge {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .image-container .main-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-section ul {
+    padding-left: 20px;
+  }
+
+  .text-section li p {
+    font-size: 14px;
+  }
+
+  /* Deals Section */
+  .deals-container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  .deal-box, .right-deal {
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .deal-box .text, .right-deal .text {
+    font-size: 16px !important;
+    padding: 10px;
+  }
+
+  .right-deal .text small {
+    font-size: 14px;
+  }
+
+  /* Subscribe */
+  .subscribe-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .subscribe-section h2 {
+    font-size: 22px;
+  }
+
+  .subscribe-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe-box input,
+  .subscribe-box button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-left img {
+    width: 120px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-column a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .footer-socials {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-socials img {
+    width: 24px;
+  }
+}
+
+
+
+
+
+/* @media (max-width: 400px) {
   .logo{
     padding-left: 5%;
   }
@@ -415,14 +611,10 @@ font-size: 22px;
   }
   .header .cart56{
  }
-  /* .header {
-    flex-direction: column;
-    align-items: center;
-  } */
   .hero {
     display: grid;
     grid-template-areas: 
-    
+
     "hero-image"
     "hero-text"
     
@@ -527,186 +719,4 @@ font-size: 22px;
   .footer-socials img {
     width: 24px;
   }
-}
-
-
-
-
-
-
-
-
-/* @media screen and (max-width: 576px) {
-  .containerr{
-    outline: hidden; */
-    /* display: grid;
-    grid-template-areas: 
-    .header
-    ; */
-  /* } */
-  /* .header{ */
-    /* padding-right: 0px;
-    margin-right: 0px; */
-    /* display: flex;
-    justify-content: space-between;
-  }
-  .header .hide{
-    display: none;
-  }
-  .header.cart56{
-    text-align: end;
-    padding-right: 5px; */
-    /* display: flex;
-    flex-direction: right;
-    text-align: right; */
-
-  /* } */
-  /* .header {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
-  }
-   */
-  /* .logo{
-    display: flex;
-    flex-direction: right;
-    padding-left: 5px;
-   } */
-
-  /* .nav {
-    flex-direction: column;
-    margin-top: 10px;
-  } */
-
-  /* .nav a {
-    margin: 5px 0;
-  } */
-
-  /* Hero section */
-  /* .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 20px;
-  }
-
-  .hero-text {
-    padding: 0;
-  }
-
-  .hero-text h1 {
-    font-size: 1.8rem;
-  } */
-
-  /* Product grid becomes 1 or 2 columns */
-  /* .product-grid {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  }
-
-  /* Adjust image sizes if needed */
-  /* .hero-image img,
-  .product-card img {
-    width: 100%;
-    height: auto;
-  }
-
-  .product-card {
-    margin: 0 auto;
-  }
-}  */
-
-
-/* @media screen and (max-width: 576px)  { */
-   /* .containerr{
-    display: grid;
-    grid-template-areas: 
-    .header
-    .hero-image
-    .hero-text;
-   } */
-  /* .logo {
-    text-align: left;
-    padding-left: 10px;
-  }
-  .home{
-    display: hidden;
-  }
-  .cart56{
-    display: flex;
-    text-align: right;
-  }
-  .product-grid{
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-    max-width: 100%;
-    max-height: 100%;
-    outline: hidden;
-
-  }
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .hero {
-    flex-direction: column;
-    text-align: ;left: ;
-  }
-
-  .hero-text {
-    padding-right: 0;
-  }
-  .nav a {
-    margin: 5px 10px;
-  }
-  .footer {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 30px;
-      }
-
-      .footer-links {
-        gap: 40px;
-      } */
-/* }
-@media  screen and (min-width: 576px) and (max-width: 768px ) {
-  
-}
-@media screen and (min-width:768px) and (max-width:992px) {
-
-  
 } */
-/* @media (max-width: 768px) { */
-/* .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-text {
-    padding-right: 0;
-  }
-
-  .header {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav a {
-    margin: 5px 10px;
-  }
-  .footer {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 30px;
-      }
-
-      .footer-links {
-        gap: 40px;
-      }
-}
